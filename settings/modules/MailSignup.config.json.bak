@@ -1,0 +1,30 @@
+{
+    "Disabled": [
+        true,
+        "bool"
+    ],
+    "ServerModuleName": [
+        "MailSignup",
+        "string"
+    ],
+    "HashModuleName": [
+        "signup",
+        "string"
+    ],
+    "CustomLogoUrl": [
+        "",
+        "string"
+    ],
+    "InfoText": [
+        "",
+        "string"
+    ],
+    "BottomInfoHtmlText": [
+        "",
+        "string"
+    ],
+    "DomainList": [
+        [],
+        "array"
+    ]
+}
