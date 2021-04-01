@@ -31,6 +31,10 @@
         1,
         "int"
     ],
+    "ContentSecurityPolicy": [
+        "",
+        "string"
+    ],
     "CustomLogoutUrl": [
         "",
         "string"
@@ -101,6 +105,10 @@
             "Vietnamese": "ti\u1ebfng Vi\u1ec7t"
         },
         "array"
+    ],
+    "MultipleFilesUploadLimit": [
+        50,
+        "int"
     ],
     "ShowQuotaBar": [
         true,

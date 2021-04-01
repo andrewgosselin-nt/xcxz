@@ -1,6 +1,6 @@
 {
     "LicenseKey": [
-        "AU80-L607LKxStWZ7MTPcsLa9qUDcIMxJDbRHO7tEJWLzuMmhKUZIH7K1GcZUDzt1uNbEILKnrU1dCVRZtWUpIMjiLyjqubPJqMZ1HKVeMdRYDKndJ85fraU-tWtMtXtaLTwnDbfStNtHuLtqsajdMbb2uc16IJPRMLRlGJbCJpU8sa5IOpxTIUngtdVYKUfqtUVUt7RiDpxVP9xhuaZkCasns6LLJVDbD7R8LS41sNs-rpRJqMDeuJR8uUtJEKxJsXRatpPoL7fiqajHsaa9J8PqJcfWDNR8r6xTL9HosdPoqXb8HVLAsVO1CJOor6fluMjyEMmpP87GLXV9rTLLuULNB6UnA7U-GzamJ8jJLcw7r81RCdZfs65HtbDLEWe8LXPECWsorc40LcLGrbROOa1RKKwnCLfnrKbDK6jgJWV6LLO6PKY8PTt0IXDNsNe7DbDgIVZlq",
+        "AU80-MNtUHztoJI50PJLPPpxGGNtzKMinJ7PUt8mmDNVnO7tqro51qUe9JKK6sdLgH6m8MTxbHTtTIzUmOa7qsTRJPzt9OJPIINRXI668JaxBPUPELKD0CNs-KaDAsXRGLMspsbPKBpDVP7LYGc7huVw8EU5YHa7kEJG9tKPhsVHNDW06MMalC7LXsUtcucDkD9PfC8YhscjXIWHBPzO1KbPdHXRfqc5Atc17Gy46uNs-HMbUtcn8GKHnMaPOtUDpMbtTDaY0HUtgA9s0LptCCKfIIJapqVDHDWHXrWH9ONxEqdDVGaVls87xA61SDM5eJ7O7IdHDCTtKINVqGyjIsTPSMWjCG9s-Iy5oLVxGqdLUKbY7HdRLsTDUEW50JbViMc1UKc10sWjlqJDgKM72H85dGctjLzDeD6tzHdOoMKnVLJGlqWP9LTxEA6nxH9t9DLbFJWnyOKDfs8HMqcs",
         "string"
     ],
     "AdminLogin": [
@@ -8,7 +8,7 @@
         "string"
     ],
     "AdminPassword": [
-        "$2y$07$MTYxNzI3NzM4NS42MDIzMuNalPbkIZIVKvg2A3FHD7bAzM.W.mS4O",
+        "$2y$07$MTYxNzIxMTcxMS4xMjAzMOk1SyMwFs\/Ev32n31acRk1GAwb\/VGUJq",
         "string"
     ],
     "AdminLanguage": [
@@ -25,19 +25,19 @@
         "string"
     ],
     "DBHost": [
-        "aurora_db_dev",
+        "10.0.202.40",
         "string"
     ],
     "DBName": [
-        "aurora_test",
+        "mail",
         "string"
     ],
     "DBLogin": [
-        "root",
+        "web",
         "string"
     ],
     "DBPassword": [
-        "cr0ssf1r3",
+        "Processpr0",
         "string"
     ],
     "UseSlaveConnection": [
@@ -173,7 +173,7 @@
         false,
         "bool"
     ],
-    "ExpireUserSessionsBefore": [
+    "ExpireUserSessionsBeforeTimestamp": [
         0,
         "int"
     ],
@@ -188,5 +188,9 @@
     "StoreAuthTokenInDB": [
         false,
         "bool"
+    ],
+    "AuthTokenExpirationLifetimeDays": [
+        0,
+        "int"
     ]
 }

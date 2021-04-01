@@ -96,10 +96,10 @@
     ],
     "AllowQuickReply": [
         true,
-        "boolean"
+        "bool"
     ],
     "AllowQuickSendOnCompose": [
         false,
-        "boolean"
+        "bool"
     ]
 }
